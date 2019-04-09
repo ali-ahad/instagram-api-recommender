@@ -22,12 +22,19 @@ The second part of this project uses a simpler evaluation metrics. We multiply t
 
 ## PROGRAM FLOW:
 • The first step is to enter the user credentials and login to user’s Instagram page
+
 • Next I get the user’s personal information i.e.: unique id and full name displayed on Instagram.
+
 • A list of all the people that the user follows is generated and I create a data frame out of it that serves as our dataset.
+
 • I got the most recent posts like by the user, expand the network of followers to friends of friends and then see who among those also like the photo
+
 • I create a graph from photos list, the user ID and followers ID to get the page rank using network library
+
 • Now I move towards calculating the relative score of each photo and then provide the top 10 photos with their unqiue ID.
+
 • The next part of this project provides us with a recommendation of hashtags from users activity. I capture the hashtags from the photos that the user has recently liked and make a data frame. Every time the hashtag appears on the caption, the number of likes and comments on that picture are added to the number of likes and comments for the hashtag
+
 • The score for each hashtag is found out, sorted in descending order and a recommendation of top 10 hashtags is provided.
 
 ## RESULTS:
